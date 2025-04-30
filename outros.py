@@ -1,9 +1,12 @@
 valor=int(input("digite a altura da piramide: "))
 
 c=1
+
 for i in range(valor):
-   print(' ' * (valor - i) + '*' * c + ' '* (valor - i))
+   espacos = (valor - i)
+   print(' ' * espacos + '*' * c + ' '* espacos)
    c+=2
+
 
 
 
