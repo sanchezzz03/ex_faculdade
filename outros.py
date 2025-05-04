@@ -1,15 +1,3 @@
-valor=int(input("digite a altura da piramide: "))
-
-c=1
-
-for i in range(valor):
-   espacos = (valor - i)
-   print(' ' * espacos + '*' * c + ' '* espacos)
-   c+=2
-
-
-
-
 #def teste():
 #    nums1 = [1, 3]
 #    nums2 = [2, 4]
@@ -36,6 +24,20 @@ for i in range(valor):
 #
 #mediana, total = teste()
 #print(f'{total} e a mediana é {mediana}')
+
+#for i in range (10,20):
+#    for j in range (10,20, 2):
+#        print('{} + {} = {}'.format(i,j,i+j))
+
+num=int(input("digite um numero"))
+str_num=str(num)
+lista=[]
+for i in str_num:
+    lista.append(int(i))
+
+lista.sort()
+print(lista)
+
 
 #letra=input("\nDigite uma letra: ")
 #alfabeto=["a","b","c","d","e","f","g","h","i",
